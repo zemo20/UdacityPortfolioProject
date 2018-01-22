@@ -3,7 +3,12 @@ body {
 	margin-left: 10%;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	color: #2d3c49;
 	font-weight: normal;
 }
@@ -20,31 +25,26 @@ header {
 	border-bottom: 5px solid #7d97ad;
 	overflow: hidden;
 	margin-bottom: 1em;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .header__logo {
 	width: 5em;
-	height:5em;	
-}
-
-.header__text {
-	
+	height: 5em;	
 }
 
 .header__text__item {
-	display: block;
 	text-align: right;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 #main__image{
-	width:100%;
+	width: 100%;
 }
 .project{
-	display:inline;
+	display: inline;
 }
 
 .project__pictures {
