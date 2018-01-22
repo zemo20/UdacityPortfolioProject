@@ -5,7 +5,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
 	color: #2d3c49;
-	font-weight: 90;
+	font-weight: normal;
 }
 
 h1 {
@@ -20,25 +20,31 @@ header {
 	border-bottom: 5px solid #7d97ad;
 	overflow: hidden;
 	margin-bottom: 1em;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
 }
 
 .header__logo {
-	position: relative;
-	top: 20px;
 	width: 5em;
+	height:5em;	
 }
 
 .header__text {
-	display: inline;
-	float: right;
+	
 }
 
 .header__text__item {
 	display: block;
 	text-align: right;
-	flex: vertical;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+#main__image{
+	width:100%;
+}
+.project{
+	display:inline;
 }
 
 .project__pictures {
